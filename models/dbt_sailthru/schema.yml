@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+    - name: list_count.sql
+      description: "Sailthru lists, along with up to date User counts, unsubscribes etc."
+      columns:
+          - name: list_id
+          - name: list_name
+          - name: primary
+          - name: type
+          - name: list_count
+          - name: dormant_count
+          - name: hardbounce_count
+          - name: lists_remove_count
+          - name: new_count
+          - name: optout_loss_count
+          - name: spam_count
+          - name: spam_loss_count
+          - name: send_time
+          - name: description
